@@ -3,7 +3,7 @@ abstract class book {
     String time;
     book(double bprice, String time) {
         this.bprice = bprice;
-        this.time = time;
+        this.time = time;  
     }
     abstract void fare();
     abstract void cancel();
